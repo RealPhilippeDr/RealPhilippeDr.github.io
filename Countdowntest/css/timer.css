@@ -1,0 +1,132 @@
+/**
+ * countdown-timer - Countdown Timer build with CSS, JS and HTML
+ * @version v1.0.1
+ * @license MIT
+ * @link https://github.com/raajnadar/countdown-timer
+ */
+
+/* Container styling */
+.ct--container-main {
+	position: relative;
+}
+
+.ct--min-container, .ct--sec-container {
+	padding: 10px;
+}
+
+/* Result value stying */
+#ct--result {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+#ct--result div {
+	flex: 1;
+	font-size: 180%;
+}
+
+/* Stop message styling */
+#ct--stop {
+	background-color: #ef5350;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	opacity: 0;
+}
+
+#ct--stop p {
+	margin: auto;
+	color: #fff;
+	font-size: 130%;
+}
+
+/* Control button styling */
+.ct--btn-control {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.ct--btn-control button {
+	flex: 1;
+}
+
+.ct--btn {
+	cursor: pointer;
+	border: none;
+	outline: none;
+	padding: 10px 0px;
+	font-size: 120%;
+	color: #fff;
+}
+
+.ct--stop-btn {
+	background-color: #ef5350;
+}
+
+.ct--start-btn {
+	background-color: #009688;
+}
+
+.ct--pause-btn {
+	background-color: #ffc107;
+}
+
+/* Updater styling */
+.ct--container-update {
+	text-align: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.ct--update-group {
+	flex: 1 25%;
+	padding: 0px 10px;
+	box-sizing: border-box;
+}
+
+.ct--container-update input {
+	width: 100%;
+	margin: 10px 0px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.ct--update-btn {
+	outline: none;
+	border: none;
+	padding: 10px 16px;
+	background: #1976d2;
+	color: #fff;
+	border-radius: 8px;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+
+/* Error styling */
+.ct--update-error {
+	width: 100%;
+}
+
+.ct--update-error-alert {
+	background-color: #f4511e;
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+	border-left: 4px solid #c62828;
+	margin: 0px 10px;
+}
+
+/* Styling for laptop and larger screen device */
+@media (min-width: 768px) {
+	.ct--container-update {
+		display: flex;
+	}
+}

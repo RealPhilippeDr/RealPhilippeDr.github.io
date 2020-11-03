@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	user-select: none;
+	background-color: #fff;
+}
+
+.container {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.card {
+	padding: 12px;
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+a {
+	text-decoration: none;
+  color: #03a9f4;
+}
+
+.title {
+	margin-bottom: 14px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #bdbdbd;
+}
+
+.page-title {
+	font-size: 2em;
+}
