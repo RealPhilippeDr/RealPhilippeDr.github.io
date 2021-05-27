@@ -12,3 +12,8 @@ CanvasRenderingContext2D.prototype.roundedRect=function(t,o,i,e,h){return i<2*h&
 "use strict";var e=n(require("./js/KongaScene.js"));function n(e){return e&&e.__esModule?e:{default:e}}function t(e,n){if(!(e instanceof n))throw new TypeError("Cannot call a class as a function")}function i(e,n){for(var t=0;t<n.length;t++){var i=n[t];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}function a(e,n,t){return n&&i(e.prototype,n),t&&i(e,t),e}var o=function(){function n(i){t(this,n),this.container=i;var a=new e.default;a.element.style.display="none",i.appendChild(a.element),window.addEventListener("resize",this.handleResize.bind(this)),this.scene=a,this.handleResize();var o=document.createElement("span");o.textContent="Preparing…";var r=document.getElementsByTagName("audio")[0];r.addEventListener("play",function(){o.parentNode.removeChild(o),a.element.classList.add("cue-in"),a.element.style.display="block",document.title="Conga!"});var d=document.createElement("button");d.textContent="Trust me",d.addEventListener("click",function(e){d.parentNode.removeChild(d),i.appendChild(o),r.play()}),i.appendChild(d)}return a(n,[{key:"handleResize",value:function(){this.scene.size={width:Math.floor(window.innerWidth),height:Math.floor(window.innerHeight)}}}]),n}();function r(){window.controller=new o(document.body)}document.addEventListener("DOMContentLoaded",r);
 },{"./js/KongaScene.js":"oCom"}]},{},["Focm"], null)
 //# sourceMappingURL=workspace.a4362daf.js.map
+<p style="color:blue">
+            Site by 
+            <a href="https://matias.ma/">
+                matias.ma</a>
+        </p>
