@@ -2592,7 +2592,7 @@ button.youtube {
 }
 
 .btn.nephritis-border,input[type="submit"].nephritis-border {
-    border: 3px solid #27ae60;
+    border: 3px solid #AD67D9;
     height: auto
 }
 
@@ -2601,7 +2601,7 @@ button.youtube {
 }
 
 .btn.nephritis-border-nodark,input[type="submit"].nephritis-border-nodark {
-    border: 3px solid #27ae60;
+    border: 3px solid #AD67D9;
     height: auto
 }
 
@@ -6928,7 +6928,7 @@ button.youtube {
 }
 
 .nephritis-text {
-    color: #27ae60 !important
+    color: #AD67D9 !important
 }
 
 .nephritis-dropshadow {
