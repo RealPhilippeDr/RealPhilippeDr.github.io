@@ -1,0 +1,45 @@
+<html>
+
+<link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+<link rel="manifest" href="assets/dumpassets/site.webmanifest">
+<link rel="mask-icon" href="assets/dumpassets/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+<link rel="manifest" href="assets/dumpassets/site.webmanifest">
+<link rel="mask-icon" href="assets/dumpassets/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+  <head>
+    <title>404: Page not found</title>
+    <link href="assets/css/modesta.csx" type="text/css" rel="stylesheet">
+    <link href="assets/css/custom.csx" type="text/css" rel="stylesheet">
+
+  <style>
+    .cursor { animation: 1s blink step-end infinite; font-weight: bolder; }
+    @keyframes blink {
+      from, to { opacity: 0; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="fullscreen">
+    <div class="background" style="background-color: black;"></div>
+      <div class="center-object center-text">
+        <h1 class="bold">
+          <span class="nephritis-text">404</span><br>Page not found <span class="cursor">_</span>
+        </h1>
+        <a href="/" class="btn nephritis-border">Back to home</a>
+      </div>
+    </div>
+  </body>
+</html>
