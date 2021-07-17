@@ -49,7 +49,7 @@
   top: 0;
   left: 50%;
   right: 50%;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(47, 49, 54, 1);
 }
 .simple_tabs_horizontal .tabs_buttons .tab_button_wrapper:hover:before {
   opacity: 1;
