@@ -1,0 +1,31 @@
+<center><h1><br><br><br><br><br><br><br><br><br>
+<link rel="stylesheet" href="simplyCountdown.theme.default.css"/>
+<div class="simply-countdown simply-countdown-one"></div>
+<script src="simplyCountdown.js"></script>
+<body style="background-color:#23272A;">
+<p class=bettertext style="color:red; font-family:Montserrat">Error 401: Unauthorized <span class="cursor"> _</span></p>
+<script>
+    var d = new Date(),
+        countUpDate = new Date();
+    d.setDate(d.getDate() + 365);
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: 2022,
+        month: 3,
+        day: 26 - 1,
+		hours: 20 + 18,
+		minutes: 5,
+		seconds: 59,
+        enableUtc: true
+    });
+</script>
+  <style>
+    .cursor { animation: 1s blink step-end infinite; font-weight: bolder; }
+    @keyframes blink {
+      from, to { opacity: 0; }
+      50% { opacity: 1; }
+    }
+  </style>
+</body>
+</h1></center>
